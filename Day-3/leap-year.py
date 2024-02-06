@@ -6,8 +6,8 @@ if(year%4==0):
     elif(year%100==0 and year%400==0):
         print("Year is a leap year.")
     else:
-        print("Year is not leap year.")
+        print(f"{year} Year is not leap year.")
 else:
-    print("Year is not a leap year.")
+    print(f"{year} Year is not a leap year.")
 
         
